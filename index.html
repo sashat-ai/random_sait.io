@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Веб-разработчик | Портфолио</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Шапка -->
+  <header>
+    <div class="container">
+      <a href="#" class="logo">DevPortfolio</a>
+      <nav>
+        <a href="#home">Главная</a>
+        <a href="#portfolio">Работы</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Основной контент -->
+  <main>
+    <!-- Hero секция -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-text">
+          <h1>Привет, я <span>Веб-разработчик</span></h1>
+          <p>Создаю красивые и функциональные сайты</p>
+          <div class="buttons">
+            <a href="#contact" class="btn">Связаться</a>
+            <a href="#portfolio" class="btn btn-outline">Портфолио</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?w=500&auto=format&fit=crop" alt="Рабочее место" class="float-animation">
+        </div>
+      </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <h2>Мои работы</h2>
+        <div class="projects">
+          <div class="project">
+            <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=500&auto=format&fit=crop" alt="Проект 1">
+            <h3>Лендинг</h3>
+            <p>Адаптивный сайт для малого бизнеса</p>
+          </div>
+          <div class="project">
+            <img src="https://images.unsplash.com/photo-1481487196290-c152efe083f5?w=500&auto=format&fit=crop" alt="Проект 2">
+            <h3>Интернет-магазин</h3>
+            <p>E-commerce решение с корзиной</p>
+          </div>
+          <div class="project">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&auto=format&fit=crop" alt="Проект 3">
+            <h3>Блог</h3>
+            <p>Платформа для публикации статей</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Свяжитесь со мной</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> email@example.com</p>
+            <p><i class="fas fa-phone"></i> +7 (123) 456-7890</p>
+            <div class="social">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-telegram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <form class="contact-form">
+            <input type="text" placeholder="Ваше имя" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Ваше сообщение"></textarea>
+            <button type="submit" class="btn">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Подвал -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Веб-разработчик. Все права защищены.</p>
+    </div>
+  </footer>
+</body>
+</html>
